@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="BelegKlassifikationAufgabe,beleg3klassifikationaufgabe_8346" />
+    <profile name="sbt 2" modules="BelegKlassifikationAufgabe.main,BelegKlassifikationAufgabe.test">
+      <option name="deprecationWarnings" value="true" />
+    </profile>
+  </component>
+</project>

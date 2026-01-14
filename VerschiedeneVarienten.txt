@@ -1,0 +1,23 @@
+variante 1
+sex, pclass, age(kategorisiert), fare(kategorisiert)
+Accuracy: 0.77511
+
+variante 2
+sex, pclass, age(kategorisiert), fare(kategorisiert), title
+Accuracy: 0.77511
+
+variante 3
+sex, pclass, age(kategorisiert), fare(kategorisiert), title, embarked
+Accuracy: 0.77511
+
+variante 4
+sex, pclass, age(kategorisiert), fare(kategorisiert), sibsp, parch
+Accuracy: 0.76794
+
+variante 5
+sex, pclass, age(kategorisiert)
+Accuracy: 0.76555
+
+variante 6
+sex, pclass, age(kategorisiert), name(kategorisiert)
+Accuracy: 0.76555
