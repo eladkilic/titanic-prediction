@@ -9,14 +9,20 @@ This project implements two different prediction models:
 
 ## Project Structure
 TitanicPrediction.csv # Main model predictions
+
 TitanicPrediction.txt # Main model predictions (text)
+
 TitanicSimplePrediction.csv # Baseline model predictions
+
 TitanicSimplePrediction.txt # Baseline model predictions (text)
+
 build.sbt # Scala build configuration
 
 ### src/main/scala
 CreatePrediction.scala # Main prediction model
+
 CreatePredictionSimple.scala # Simple baseline model
+
 Utils.scala # Helper functions
   
 ## Running the Model
