@@ -8,32 +8,16 @@ This project implements two different prediction models:
 2. **Simple Baseline Model**: A gender-based model assuming "all women survived, all men perished"
 
 ## Project Structure
-  ├── src/main/scala/
-  
-  │ ├── CreatePrediction.scala # Main prediction model
-  
-  │ ├── CreatePredictionSimple.scala # Simple baseline model
-  
-  │ └── Utils.scala # Helper functions
-  
-  ├── predictions/
-  
-  │ ├── TitanicPrediction.csv # Main model predictions
-  
-  │ ├── TitanicPrediction.txt # Main model predictions (text)
-  
-  │ ├── TitanicSimplePrediction.csv # Baseline model predictions
-  
-  │ └── TitanicSimplePrediction.txt # Baseline model predictions (text)
-  
-  ├── build.sbt # Scala build configuration
-  
-  ├── project/
-  
-  │ └── build.properties # SBT version
-  
-  └── README.md # This file
+TitanicPrediction.csv # Main model predictions
+TitanicPrediction.txt # Main model predictions (text)
+TitanicSimplePrediction.csv # Baseline model predictions
+TitanicSimplePrediction.txt # Baseline model predictions (text)
+build.sbt # Scala build configuration
 
+### src/main/scala
+CreatePrediction.scala # Main prediction model
+CreatePredictionSimple.scala # Simple baseline model
+Utils.scala # Helper functions
   
 ## Running the Model
 ### Prerequisites
